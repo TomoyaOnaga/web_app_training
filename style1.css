@@ -3,5 +3,31 @@ p {
 }
 h1 {
     font-size:24px;
-    margin:50px;
+    margin:0px;
+}
+
+.content {
+    background-color: rgb(164, 243, 199);
+    width:600px;
+    margin:0 auto;
+    border:1px solid black;
+    padding:30px;
+}
+
+input {
+    border: none;
+    border-bottom:1px solid black;
+    font-size:1.2em;
+    width:100%;
+    padding:8px;
+}
+
+button {
+    width:100%;
+    background-color:blue;
+    color:white;
+    padding:15px;
+    border:0;
+    border-radius:3px;
+    box-shadow:0 0 4px rgba(0, 0, 0, .4);
 }
